@@ -1,0 +1,106 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    font-weight: 100;
+}
+@media screen and (max-width:380px){
+    #navbar ul li a{
+        padding: 0px 5px 10px;
+    }
+}
+
+/* home */
+#home{
+    height: 300px;
+    padding: 3px 60px;
+}
+
+#home::before{
+    height: 425px;
+    width: 100%;
+}
+
+#home p{
+    font-size: 17px;
+}
+/* Services */
+
+#services{
+
+    margin: 17px;
+    flex-direction: column;
+}
+
+/* Client */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    height: 80px;
+    width: 80px;
+}
+
+.client-item{
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#client-section::before{
+    height: 45%;
+}
+
+/* services */
+
+#services .box img{
+    height: 88px;
+}
+
+
+#services .box{
+    padding: 24px 15px;
+}
+
+
+
+/* contact */
+
+#contact-box form {
+    width: 84%;
+}
+
+#contact-box input,
+#contact-box textarea{
+    font-size: 1rem;
+    height: 70%;
+}
+
+#contact-box label{
+    font-size: 1.1rem;
+}
+
+/* Footer  */
+footer{
+    font-size: 1rem;
+}
+
+.h-secondary {
+    font-size: 1.4rem;
+    padding: 6px;
+}
+
+/* utility clases */
+
+.h-primary{
+    font-size: 28px;
+}
+
+.btn{
+    font-size: 1.3rem;
+    padding: 5px 5px;
+}
